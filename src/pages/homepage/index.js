@@ -1,27 +1,25 @@
 import React from 'react'
 import './styles.css'
-import {FiMenu} from 'react-icons/fi'
+import PageHeader from '../../components/PageHeader'
 
-import logo from '../../assets/img/Logo-Blue.png'
 import heroImg from '../../assets/img/hero_img.jpg'
 export default function Homepage(){
     return(
         <div className="page-homepage">
-            <header>
-                <div>
-                    <h2>CONTACT</h2>
-                </div>
-                <div className="logo-container">
-                    <img src={logo} alt="cdx logo"/>
-                </div>
-                <div>
-                    <FiMenu className="button-menu" size={26} />
-                </div>
-            </header>
+            <PageHeader />
             <main>
-                <h1>AQUI NÓS FAZEMOS</h1>
-                <img src={heroImg} alt="foto de engenharia" className="hero-image"/>
-                <h1>ENGENHARIA</h1>
+                <div className="hero-text-container">
+                    <h1>SOLUÇÕES EM AUTOMAÇÃO</h1>
+                    <h3>Soluções e Consultoria em Automação Residencial, Predial e Internet das coisas.</h3>
+                    <button>
+                        FAÇA SEU ORÇAMENTO
+                    </button>
+                </div>
+                <div className="first-triangle"></div>
+                <div className="hero-container">
+                    <div className="hero-fog"></div>
+                    <img src={heroImg} alt="Hero"/>
+                </div>
             </main>
             <footer>
 
