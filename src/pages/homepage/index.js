@@ -11,9 +11,11 @@ export default function Homepage(){
                 <div className="hero-text-container">
                     <h1>SOLUÇÕES EM AUTOMAÇÃO</h1>
                     <h3>Soluções e Consultoria em Automação Residencial, Predial e Internet das coisas.</h3>
-                    <button>
-                        FAÇA SEU ORÇAMENTO
-                    </button>
+                    <a href="mailto:contato@cdxengenharia.com.br?subject=Orçamento">
+                        <button>
+                            FAÇA SEU ORÇAMENTO
+                        </button>
+                    </a>
                 </div>
                 <div className="first-triangle"></div>
                 <div className="hero-container">
